@@ -1,0 +1,350 @@
+:root {
+    --blue: #081364;
+    --orange: #F68020;
+    --success: #38AE0E;
+    --error: #E51E2B;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+}
+
+/* Navbar */
+.nav img {
+    inline-size: 50%;
+}
+
+.menu {
+    align-items: center;
+    justify-content: end;
+}
+
+.menu li {
+    list-style: none;
+    margin-inline-start: 60px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.menu a {
+    color: var(--blue);
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+    padding: 0px 0px 0px 5px;
+    text-decoration: none;
+}
+
+.active {
+    border-block-end: 1.5px solid var(--orange);
+}
+
+.menu i {
+    font-size: 16px;
+}
+
+/* Ticket bottom */
+
+.ticket {
+    text-align: center;
+    margin-block-start: 80px;
+}
+
+.ticket .para {
+    font-size: 52px;
+    color: var(--blue);
+}
+
+.ticket .date {
+    font-size: 20px;
+}
+
+.button {
+    place-content: center;
+}
+
+.button button {
+    border: none;
+    background: var(--blue);
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.button button a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+/* Bottom */
+.bottom img {
+    inline-size: -webkit-fill-available;
+    opacity: 0.32;
+}
+
+/* Scan */
+.scan {
+    text-align: center;
+}
+
+.scan img {
+    inline-size: 22rem;
+}
+
+.scan .para {
+    font-size: 52px;
+    color: var(--blue);
+}
+
+.button-form button {
+    position: absolute;
+    inset-inline-end: 4.5rem;
+}
+
+.button-form button i {
+    font-size: 16px;
+}
+
+/* Form */
+
+.Form {
+    position: relative;
+    inline-size: 25rem;
+    border: none;
+    background: rgba(8, 19, 100, 0.52);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 30px 30px 50px 30px;
+    color: white;
+}
+
+.Form .number {
+    position: absolute;
+    inset-block-start: -2rem;
+    inset-inline-end: 45%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #8084af;
+    background: #ffff;
+    border-radius: 50%;
+    inline-size: 50px;
+    block-size: 50px;
+}
+
+.Form i {
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    inset-block-start: 0;
+    inset-inline-end: 0px;
+    background: white;
+    color: #8084af;
+    padding: 5px;
+}
+
+.Form .head {
+    margin-block-end: 0.5em;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-select {
+    color: #3D3D3D;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.form-button {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #F2F5F7;
+}
+
+.footer {
+    justify-content: space-between;
+    padding-block-start: 15px;
+    place-items: center;
+}
+
+.total p {
+    color: var(--blue);
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.total span {
+    color: var(--success);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.footer .count {
+    align-items: center;
+}
+
+.footer .count p {
+    padding-inline-end: 0.75rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer .count .active-count {
+    font-size: 18px;
+}
+
+.proceed button {
+    border: none;
+    background-color: var(--success);
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Checkin Form */
+.checkin {
+    inline-size: 20rem;
+    background: rgba(230, 238, 255, 0.47);
+    box-shadow: 4px 0px 4px rgba(39, 72, 135, 0.25);
+    border-radius: 15px;
+    padding: 30px 30px 50px 30px;
+    text-align: center;
+}
+
+.checkin .image img {
+    inline-size: 200px;
+}
+
+.input input {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, .25);
+}
+
+.checkin p {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.checkin .input label {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Checkin for normal */
+
+.checkin-normal {
+    background: linear-gradient(180deg, rgba(158, 192, 255, 0.923947) 0%, rgba(0, 29, 83, 0.63) 32.79%, #001948 68.07%, rgba(0, 21, 60, 0.12) 97.92%), url(./assets/checkin.png);
+}
+
+.checkin-normal .container {
+    padding: 54.25px 0px;
+}
+
+.desc {
+    align-self: center;
+}
+
+.desc p {
+    font-size: 50px;
+    font-weight: 500;
+    margin-block-end: 0;
+}
+
+.desc .code {
+    font-size: 18px;
+    font-weight: 400;
+    margin-block-start: 0.75rem;
+}
+
+.checkin-normal .desc .status p {
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--success);
+}
+
+.checkin-normal .desc .status i {
+    font-size: 30px;
+    color: var(--success);
+}
+
+/* Error Checkin */
+.checkin-error {
+    background: linear-gradient(218.01deg, rgba(229, 30, 43, 0.44) 21.93%, rgba(0, 29, 83, 0.37) 54.61%, rgba(21, 15, 15, 0.12) 94.04%), url(./assets/checkin.png);
+}
+
+.checkin-error .container {
+    padding: 54.25px 0px;
+}
+
+.checkin-error .desc .status p {
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--error);
+}
+
+.checkin-error .desc .status i {
+    font-size: 30px;
+    color: var(--error);
+}
+
+/* Success checkin */
+.checkin-success {
+    background: linear-gradient(199.44deg, rgba(197, 255, 139, 0.43) 13.04%, rgba(0, 29, 83, 0.6831) 39.56%, rgba(0, 26, 74, 0.98) 58.79%, rgba(0, 21, 60, 0.12) 96.52%), url(./assets/checkin.png);
+}
+
+/* Home */
+.banner {
+    background: linear-gradient(180deg, rgba(17, 27, 45, 0.89) 0%, #000000 91.15%), url(./assets/bnner.png);
+    padding: 8rem 0rem;
+}
+
+.banner .container {
+    text-align: center;
+}
+
+.banner .container h1 {
+    background: linear-gradient(0deg, #6D74A3 36.28%, #FFFFFF 69.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 50px;
+}
+
+.banner .location {
+    justify-content: center;
+    color: #ffff;
+    margin-block-start: 20px;
+}
+
+.banner .container .location i {
+    font-size: 22px;
+    padding: 8px 10px 0px 0px;
+}
+
+.banner .container .location .add {
+    font-size: 25px;
+}
+
+.banner .button button a {
+    font-size: 28px;
+    font-weight: 300;
+    color: #ffff;
+}
